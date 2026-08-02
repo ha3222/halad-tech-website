@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Halad Tech - Laptops, Devices & Servers</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/logo.png" alt="Halad Tech" style="max-height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                <a href="about.html" class="nav-item nav-link">من نحن</a>
+                <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">صفحات</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="feature.html" class="dropdown-item">مميزاتنا</a>
+                        <a href="quote.html" class="dropdown-item">اطلب عرض سعر</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+20 1000637424</h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">لابتوبات و اجهزة و سيرفرات</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">وجهتك الأولى لـ <span class="text-primary">أحدث</span> الأجهزة التقنية</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">نوفر لك أفضل اللابتوبات، الأجهزة المكتبية، السيرفرات وقطع الغيار الأصلية بأسعار تنافسية وضمان موثوق.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">اقرأ المزيد</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">اطلب عرض سعر</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">حلول تقنية متكاملة</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">شريكك الموثوق في <span class="text-primary">السيرفرات</span> والأجهزة</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">من الأجهزة الشخصية إلى حلول السيرفرات للشركات، Halad Tech توفر لك كل ما تحتاجه في مكان واحد.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">اقرأ المزيد</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">اطلب عرض سعر</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3">من نحن</h6>
+                    <h1 class="mb-5">حلول تقنية سريعة وموثوقة لأجهزتك وسيرفراتك</h1>
+                    <p class="mb-5">Halad Tech شركة متخصصة في بيع وتوريد اللابتوبات، الأجهزة المكتبية، السيرفرات، والملحقات التقنية للأفراد والشركات، مع خدمة ما بعد البيع ودعم فني متكامل.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
+                            <h5>توريد عالمي</h5>
+                            <p class="m-0">نستورد أحدث الأجهزة والسيرفرات من أفضل الماركات العالمية الموثوقة.</p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
+                            <h5>تسليم في الموعد</h5>
+                            <p class="m-0">نضمن وصول طلبك بسرعة وأمان أينما كنت.</p>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary py-3 px-5">اكتشف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">خدماتنا</h6>
+                <h1 class="mb-5">استكشف خدماتنا</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">لابتوبات</h4>
+                        <p>تشكيلة واسعة من أحدث اللابتوبات للأعمال، الألعاب، والاستخدام اليومي.</p>
+                        <a class="btn-slide mt-2" href="servicelaptop.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">أجهزة مكتبية (PCs)</h4>
+                        <p>أجهزة كمبيوتر مكتبية بمواصفات متنوعة تناسب المكاتب والمنازل والشركات.</p>
+                        <a class="btn-slide mt-2" href="servicedesktop.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">سيرفرات</h4>
+                        <p>سيرفرات قوية وموثوقة لدعم بنية الشركات التحتية بأداء عالٍ.</p>
+                        <a class="btn-slide mt-2" href="serviceservers.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">شبكات وملحقات</h4>
+                        <p>راوترات، سويتشات، وكابلات شبكات لبناء بنية اتصال قوية ومستقرة.</p>
+                        <a class="btn-slide mt-2" href="servicenetwork.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">صيانة ودعم فني</h4>
+                        <p>فريق دعم فني متخصص لصيانة وإصلاح الأجهزة والسيرفرات بسرعة واحترافية.</p>
+                        <a class="btn-slide mt-2" href="support.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">حلول تخزين البيانات</h4>
+                        <p>أنظمة تخزين وباك أب متكاملة لحماية بيانات شركتك وأعمالك.</p>
+                        <a class="btn-slide mt-2" href="servicestorage.html"><i class="fa fa-arrow-right"></i><span>اقرأ المزيد</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">مميزاتنا</h6>
+                    <h1 class="mb-5">شركة موثوقة في مجال الأجهزة التقنية والسيرفرات</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>خدمة توريد شاملة</h5>
+                            <p class="mb-0">نوفر أجهزة وسيرفرات من أفضل الماركات العالمية مع ضمان الجودة والأصالة.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>تسليم سريع</h5>
+                            <p class="mb-0">شحن وتوصيل سريع لطلباتك أينما كنت داخل وخارج المدينة.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>دعم فني على مدار الساعة</h5>
+                            <p class="mb-0">فريق دعم متاح للرد على استفساراتك ومساعدتك في أي وقت.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">احصل على عرض سعر</h6>
+                    <h1 class="mb-5">اطلب عرض سعر مجاني!</h1>
+                    <p class="mb-5">هل تحتاج لابتوب، جهاز مكتبي، أو سيرفر لشركتك؟ املأ النموذج وسيتواصل معك فريقنا بأفضل عرض سعر يناسب احتياجاتك.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>اتصل لأي استفسار!</h6>
+                            <h3 class="text-primary m-0">+20 1000637424</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div id="quote-success" class="alert alert-success d-none" role="alert">
+                        تم إرسال طلبك بنجاح! هنتواصل معاك بعرض السعر في أقرب وقت.
+                    </div>
+                    <div id="quote-error" class="alert alert-danger d-none" role="alert">
+                        حصل خطأ في الإرسال، جربي تاني أو كلمينا على واتساب.
+                    </div>
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form id="quoteForm" action="https://formspree.io/f/mykrodbr" method="POST">
+                            <input type="hidden" name="_subject" value="طلب عرض سعر جديد - Halad Tech">
+                            <input type="text" name="_gotcha" style="display:none">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" name="name" placeholder="الاسم" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" name="email" placeholder="البريد الإلكتروني" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" name="phone" placeholder="رقم الموبايل" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" name="product_type" style="height: 55px;" required>
+                                        <option selected disabled value="">اختر نوع المنتج</option>
+                                        <option value="لابتوب">لابتوب</option>
+                                        <option value="جهاز مكتبي">جهاز مكتبي</option>
+                                        <option value="سيرفر">سيرفر</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" name="message" placeholder="ملاحظات إضافية"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit" id="quoteSubmitBtn">إرسال</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">العنوان</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://maps.google.com/?q=30.045584,31.343832" target="_blank" rel="noopener noreferrer" class="text-light">القاهرة، مصر</a></p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+20 1000637424</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@haladtech.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/share/181DBYqNry/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/haladtech/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://wa.me/201000637424" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">خدماتنا</h4>
+                    <a class="btn btn-link" href="servicelaptop.html">لابتوبات</a>
+                    <a class="btn btn-link" href="servicedesktop.html">أجهزة مكتبية</a>
+                    <a class="btn btn-link" href="serviceservers.html">سيرفرات</a>
+                    <a class="btn btn-link" href="servicenetwork.html">شبكات وملحقات</a>
+                    <a class="btn btn-link" href="serviceenterprice.html">حلول الشركات</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">روابط سريعة</h4>
+                    <a class="btn btn-link" href="about.html">من نحن</a>
+                    <a class="btn btn-link" href="contact.html">تواصل معنا</a>
+                    <a class="btn btn-link" href="service.html">خدماتنا</a>
+                    <a class="btn btn-link" href="terms.html">الشروط والأحكام</a>
+                    <a class="btn btn-link" href="support.html">الدعم الفني</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">النشرة البريدية</h4>
+                    <p>اشترك عشان توصلك أحدث العروض والمنتجات أول بأول.</p>
+                    <div id="newsletter-msg" class="small mb-2"></div>
+                    <form id="newsletterForm" action="https://formspree.io/f/mykrodbr" method="POST" class="position-relative mx-auto" style="max-width: 400px;">
+                        <input type="hidden" name="_subject" value="اشتراك جديد في النشرة البريدية - Halad Tech">
+                        <input type="text" name="_gotcha" style="display:none">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" name="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">اشتراك</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Halad Tech</a>, جميع الحقوق محفوظة.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** The author's attribution link below must remain intact on your website. ***/-->
+                        <!--/*** If you wish to remove this credit link, please purchase the Pro Version from https://htmlcodex.com . ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Habiba Ahmed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201000637424" target="_blank" rel="noopener noreferrer" class="btn btn-lg btn-lg-square rounded-circle position-fixed" style="left: 45px; bottom: 45px; z-index: 99; background-color: #25D366; color: #fff;">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Forms AJAX Submission -->
+    <script>
+        async function submitFormAjax(form, successBox, errorBox) {
+            const data = new FormData(form);
+            try {
+                const response = await fetch(form.action, {
+                    method: 'POST',
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (response.ok) {
+                    if (successBox) { successBox.classList.remove('d-none'); }
+                    if (errorBox) { errorBox.classList.add('d-none'); }
+                    form.reset();
+                } else {
+                    if (errorBox) { errorBox.classList.remove('d-none'); }
+                    if (successBox) { successBox.classList.add('d-none'); }
+                }
+            } catch (err) {
+                if (errorBox) { errorBox.classList.remove('d-none'); }
+                if (successBox) { successBox.classList.add('d-none'); }
+            }
+        }
+
+        const quoteForm = document.getElementById('quoteForm');
+        if (quoteForm) {
+            quoteForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                submitFormAjax(
+                    quoteForm,
+                    document.getElementById('quote-success'),
+                    document.getElementById('quote-error')
+                );
+            });
+        }
+
+        const newsletterForm = document.getElementById('newsletterForm');
+        if (newsletterForm) {
+            newsletterForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const msgBox = document.getElementById('newsletter-msg');
+                submitFormAjax(newsletterForm, null, null).then(() => {
+                    if (msgBox) {
+                        msgBox.textContent = 'تم الاشتراك بنجاح!';
+                        msgBox.classList.add('text-success');
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
