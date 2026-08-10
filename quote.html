@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Halad Tech - لابتوبات، أجهزة وسيرفرات</title>
+    <title>Halad Tech - Laptops, Devices & Servers</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -51,17 +51,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">الرئيسية</a>
-                <a href="about.html" class="nav-item nav-link">من نحن</a>
-                <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">صفحات</a>
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a href="feature.html" class="dropdown-item">مميزاتنا</a>
-                        <a href="quote.html" class="dropdown-item active">اطلب عرض سعر</a>
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="quote.html" class="dropdown-item active">Request a Quote</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+20 1000637424</h4>
         </div>
@@ -72,12 +72,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">اطلب عرض سعر</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Request a Quote</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="index.html">الرئيسية</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">صفحات</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">اطلب عرض سعر</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Request a Quote</li>
                 </ol>
             </nav>
         </div>
@@ -90,54 +90,54 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">احصل على عرض سعر</h6>
-                    <h1 class="mb-5">اطلب عرض سعر مجاني!</h1>
-                    <p class="mb-5">هل تحتاج لابتوب، جهاز مكتبي، أو سيرفر لشركتك؟ املأ النموذج وسيتواصل معك فريقنا بأفضل عرض سعر يناسب احتياجاتك.</p>
+                    <h6 class="text-secondary text-uppercase mb-3">Get a Quote</h6>
+                    <h1 class="mb-5">Request a Free Quote!</h1>
+                    <p class="mb-5">Need a laptop, desktop, or server for your business? Fill out the form and our team will get back to you with the best quote for your needs.</p>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         <div class="ps-4">
-                            <h6>اتصل لأي استفسار!</h6>
+                            <h6>Call us for any inquiry!</h6>
                             <h3 class="text-primary m-0">+20 1000637424</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <!-- رسالة نجاح/خطأ -->
+                    <!-- Success/Error message -->
                     <div id="quote-success" class="alert alert-success d-none" role="alert">
-                        تم إرسال طلبك بنجاح! هنتواصل معاك بعرض السعر في أقرب وقت.
+                        Your request has been sent successfully! We'll contact you with a quote soon.
                     </div>
                     <div id="quote-error" class="alert alert-danger d-none" role="alert">
-                        حصل خطأ في الإرسال، جربي تاني أو كلمينا على واتساب.
+                        Something went wrong. Please try again or contact us on WhatsApp.
                     </div>
 
                     <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
                         <form id="quoteForm" action="https://formspree.io/f/mykrodbr" method="POST">
-                            <input type="hidden" name="_subject" value="طلب عرض سعر جديد - Halad Tech">
+                            <input type="hidden" name="_subject" value="New Quote Request - Halad Tech">
                             <input type="text" name="_gotcha" style="display:none">
 
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" name="name" placeholder="الاسم" style="height: 55px;" required>
+                                    <input type="text" class="form-control border-0" name="name" placeholder="Name" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" name="email" placeholder="البريد الإلكتروني" style="height: 55px;" required>
+                                    <input type="email" class="form-control border-0" name="email" placeholder="Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" name="phone" placeholder="رقم الموبايل" style="height: 55px;" required>
+                                    <input type="text" class="form-control border-0" name="phone" placeholder="Phone Number" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" name="product_type" style="height: 55px;" required>
-                                        <option selected disabled value="">اختر نوع المنتج</option>
-                                        <option value="لابتوب">لابتوب</option>
-                                        <option value="جهاز مكتبي">جهاز مكتبي</option>
-                                        <option value="سيرفر">سيرفر</option>
+                                        <option selected disabled value="">Select Product Type</option>
+                                        <option value="Laptop">Laptop</option>
+                                        <option value="Desktop PC">Desktop PC</option>
+                                        <option value="Server">Server</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" name="message" placeholder="ملاحظات إضافية"></textarea>
+                                    <textarea class="form-control border-0" name="message" placeholder="Additional Notes"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit" id="quoteSubmitBtn">إرسال</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit" id="quoteSubmitBtn">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -154,8 +154,8 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">العنوان</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://maps.google.com/?q=30.045584,31.343832" target="_blank" rel="noopener noreferrer" class="text-light">القاهرة، مصر</a></p>
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a href="https://maps.google.com/?q=30.045584,31.343832" target="_blank" rel="noopener noreferrer" class="text-light">Cairo, Egypt</a></p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+20 1000637424</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@haladtech.com</p>
                     <div class="d-flex pt-2">
@@ -165,30 +165,30 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">خدماتنا</h4>
-                    <a class="btn btn-link" href="servicelaptop.html">لابتوبات</a>
-                    <a class="btn btn-link" href="servicedesktop.html">أجهزة مكتبية</a>
-                    <a class="btn btn-link" href="serviceservers.html">سيرفرات</a>
-                    <a class="btn btn-link" href="servicenetwork.html">شبكات وملحقات</a>
-                    <a class="btn btn-link" href="serviceenterprice.html">حلول الشركات</a>
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="servicelaptop.html">Laptops</a>
+                    <a class="btn btn-link" href="servicedesktop.html">Desktop PCs</a>
+                    <a class="btn btn-link" href="serviceservers.html">Servers</a>
+                    <a class="btn btn-link" href="servicenetwork.html">Networking & Accessories</a>
+                    <a class="btn btn-link" href="serviceenterprice.html">Enterprise Solutions</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">روابط سريعة</h4>
-                    <a class="btn btn-link" href="about.html">من نحن</a>
-                    <a class="btn btn-link" href="contact.html">تواصل معنا</a>
-                    <a class="btn btn-link" href="service.html">خدماتنا</a>
-                    <a class="btn btn-link" href="terms.html">الشروط والأحكام</a>
-                    <a class="btn btn-link" href="support.html">الدعم الفني</a>
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="terms.html">Terms & Conditions</a>
+                    <a class="btn btn-link" href="support.html">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">النشرة البريدية</h4>
-                    <p>اشترك عشان توصلك أحدث العروض والمنتجات أول بأول.</p>
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe to get the latest offers and products first.</p>
                     <div id="newsletter-msg" class="small mb-2"></div>
                     <form id="newsletterForm" action="https://formspree.io/f/mykrodbr" method="POST" class="position-relative mx-auto" style="max-width: 400px;">
-                        <input type="hidden" name="_subject" value="اشتراك جديد في النشرة البريدية - Halad Tech">
+                        <input type="hidden" name="_subject" value="New Newsletter Subscription - Halad Tech">
                         <input type="text" name="_gotcha" style="display:none">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" name="email" placeholder="بريدك الإلكتروني" required>
-                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">اشتراك</button>
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" name="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -197,12 +197,12 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Halad Tech</a>, جميع الحقوق محفوظة.
+                        &copy; <a class="border-bottom" href="#">Halad Tech</a>, All rights reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** The author's attribution link below must remain intact on your website. ***/-->
                         <!--/*** If you wish to remove this credit link, please purchase the Pro Version from https://htmlcodex.com . ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Habiba Ahmed</a>
+                        Designed By <a class="border-bottom" href="https://www.linkedin.com/in/habiba-ahmed-92a620353?utm_source=share_via&utm_content=profile&utm_medium=member_android">Habiba Ahmed</a>
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@
                 const msgBox = document.getElementById('newsletter-msg');
                 submitFormAjax(newsletterForm, null, null).then(() => {
                     if (msgBox) {
-                        msgBox.textContent = 'تم الاشتراك بنجاح!';
+                        msgBox.textContent = 'Subscribed successfully!';
                         msgBox.classList.add('text-success');
                     }
                 });
